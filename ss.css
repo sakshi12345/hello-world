@@ -1,0 +1,51 @@
+h1{ 
+    align: center;
+    font-size: 0.875em;
+	padding: 20px;
+	margin-left: 550px;
+	top: 50px;
+	background-color: lightcoral;
+	font-family: arial;    
+    position: fixed;
+	display: inline;
+	width: 15%;
+    color: black; 
+	border: 6px dashed blue;
+	 
+}
+
+body{ background-image: url("back_new.jpg");
+      width:100%;
+	  height:100%;
+	}
+
+img{ 
+     width: 600px;
+	 height: 550px;
+	 float: right;
+	 position: relative;
+     float:right; 
+	 padding:100px;
+	 margin: 0px;
+}	  
+
+#list ul{  position: fixed;
+    font-family: arial;
+    font-align:left;
+    font-weight: bold;
+    padding:100px;
+    margin: 0px;
+    color: white;
+}
+
+#list li a:visited{ 
+    font-size: 40px;
+	color: brown;
+}
+
+#list li a:hover{
+	 font-size: 50px;
+	 color: blue;
+}	  
+
+#list li a:active{ color:pink;}
